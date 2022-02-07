@@ -1,0 +1,24 @@
+* {
+    margin: 1%;
+}
+.text-field {
+    padding: 0.7%;
+    text-align: center;
+}
+#ID {
+    margin-left: 3%;
+}
+#Price {
+    margin-left: 1.45%;
+}
+#Button {
+    padding: 1.5%;
+    padding-left: 2.5%;
+    padding-right: 5.5%;
+    border: 3px solid black;
+    background-color: white;
+}
+.Product-details {
+    padding-right: 5%;
+    width: 40%;
+}

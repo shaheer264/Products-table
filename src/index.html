@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Task2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <form>
+            <label for="pro-id">Product Id</label>
+            <input type="text" class="text-field" id="ID" name="pro-id">
+            <br>
+            <label for="pro-name">Product Name</label>
+            <input type="text" class="text-field" id="Name" name="pro-name">
+            <br>
+            <label for="pro-price">Product Price</label>
+            <input type="text" class="text-field" id="Price" name="pro-price">
+            <br>
+            <input type="button" id="Button" onclick="myFunction()" value="ADD PRODUCT"> 
+        </form>
+    </div>
+    <div class="table">
+        <table id="table1">
+            <tr> 
+                <td class="Product-details" id="pr-ID">Product Id</td>
+                <td class="Product-details" id="pr-Name">Product Name</td>
+                <td id="pr-Price">Product Price</td>
+            </tr>
+            <tr class="Entries">
+                <td class="Pr-entries" id="Enter-ID"></td>
+                <td class="Pr-entries" id="Enter-name"></td>
+                <td class="Pr-entries" id="Enter-price"></td>
+            </tr>
+        </table>
+    </div>
+    <script src="myScript.js"></script>
+</body>
+</html>
